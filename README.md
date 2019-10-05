@@ -1,4 +1,4 @@
-# SpaceInvader-PyArcade
+# SpaceInvader  - PyArcade
 Jogo Space Invaders desenvolvido na biblioteca PyArcade
 
 >Desenvolvido no segundo trimestre de Programção II e Engenharia de Software no Instituto Federal Catarinense - Campus Blumenau
