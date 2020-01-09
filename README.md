@@ -13,7 +13,7 @@ Os aspectos principais foram planejados para a disciplina de **Engenharia de Sof
 * [Requisitos Funcionais e Não-Funcionais](https://docs.google.com/document/d/1MDXXXvBGJVtEZA573gmeRsSRpweHLWi_mhOSCG5KCzw/edit?usp=sharing) - Requisitos levantados para o projeto.
 
 
-![Imagem da tela inicial](https://i.ibb.co/hVsndWw/menu1.gif)
+[![menu1.gif](https://s5.gifyu.com/images/menu1.gif)](https://gifyu.com/image/mFcE)
 
 
 ## Instalação e Uso
@@ -61,13 +61,13 @@ A partir dai, o jogo segue o modelo clássico de SpaceInvaders, no qual várias 
 ### Multiplayer
 Diferentemente do original, essa versão apresenta jogabilidade de dois jogadores, no qual ambos tentam se defender dos aliens, porém competem para ver quem consegue a maior pontuação no final, a qual é demonstrada em tempo real no topo da tela, incluindo qual deles está vencendo no momento.
 
-![Imagem da pontuacao](https://i.ibb.co/ZGhp5YX/score2.gif)
+[![score2.gif](https://s5.gifyu.com/images/score2.gif)](https://gifyu.com/image/mFc9)
 
 ### Cobertura
 Pode-se tambem notar que há diferentes coberturas para proteger os jogadores dos lazers inimigos e vice-versa.
 Essas coberturas são destruídas de maneria dinâmica pelos disparos e compostas por uma série de diferentes pedaços, de maneira que cada um seja independente.
 
-![Imagem das coberturas](https://i.ibb.co/sbyK9wg/cover1.gif)
+[![Imagem das coberturas](https://s5.gifyu.com/images/cover1.gif)](https://gifyu.com/image/mFc3)
 ```
  # Criação dos covers, (na verdade listas de bloquinhos destrutíveis(Bloco_cover))
         self.lista_covers = []
