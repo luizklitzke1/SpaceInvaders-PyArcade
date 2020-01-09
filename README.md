@@ -37,6 +37,8 @@ Toda a funcionalidade do projeto é extensamente comentada e explicada no seu de
 
 ## Gameplay
 
+[![gp2b2b4c5d648b06cea.gif](https://s5.gifyu.com/images/gp2b2b4c5d648b06cea.gif)](https://gifyu.com/image/mFc0)
+
 Já na tela inicial, o jogador é apresentado aos comandos básicos de movimentação e ataque.
 Cada um dos aliens são criados de maneira específica para sua coluna, com uma textura e dando uma pontuação diferente ao serem abatidos.
 
@@ -56,10 +58,19 @@ Cada um dos aliens são criados de maneira específica para sua coluna, com uma 
                 novo_alien = Alien(tipo, .8, 100 + inimigo*55 , 630 - (linha*42), coluna)
                 self.lista_inimigos.append(novo_alien)
 ```
-A partir dai, o jogo segue o modelo clássico de SpaceInvaders, no qual várias fileiras de aliens se movem em direção dos jogadores, ganhando velocidade conforme mais deles são abatidos.
+A partir dai, o jogo segue o modelo clássico de SpaceInvaders, no qual várias fileiras de aliens se movem em direção dos jogadores, ganhando velocidade conforme mais deles são abatidose os níveis avançam.
+
+```
+# Cálculo da velocidade dos inimigos, dependendo de quantos há na tela
+            if self.direcao_inimigos == 0:   #Movimento dos inimigos for para a direita (eixo x positivo)
+                self.velocidade_inimigos = 1.2 + self.inimigos_mortos*(0.02*self.nivel/4)
+            elif self.direcao_inimigos == 1: #Movimento dos inimigos for para a esquerda (eixo x negativo)
+                self.velocidade_inimigos = -(1.2 + self.inimigos_mortos*0.02*self.nivel/4)
+```
 
 ### Multiplayer
 Diferentemente do original, essa versão apresenta jogabilidade de dois jogadores, no qual ambos tentam se defender dos aliens, porém competem para ver quem consegue a maior pontuação no final, a qual é demonstrada em tempo real no topo da tela, incluindo qual deles está vencendo no momento.
+Cada jogador também possuí seu próprio número de vidas, sendo que o jogo só acaba quando as de ambos forem esgotadas.
 
 [![score2.gif](https://s5.gifyu.com/images/score2.gif)](https://gifyu.com/image/mFc9)
 
