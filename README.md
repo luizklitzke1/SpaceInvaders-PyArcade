@@ -30,7 +30,7 @@ Em caso de problemas ou dúvidas, apenas rode o seguinte no terminal, uma vez de
 python3 -m pip install -r requirements.txt
 ```
 
-## Compreensão por terceiros
+### Compreensão por terceiros
 
 Toda a funcionalidade do projeto é extensamente comentada e explicada no seu decorrer, para um melhor entendimento de alguem que possa querer modifica-lo ou vir a utiliza-lo como base.
 
