@@ -102,7 +102,7 @@ class Jogo(arcade.Window):
                     novo_cover.append(novo_bloco)
             self.lista_covers.append(novo_cover)
   
-    def on_key_press(self, key, modifiers): # O que executar ao pressionar uma tecla 
+    def on_key_press(self, key, modifiers): # O que executar ao pressionar uma tecla #
 
         #Sair da tela inicial
         if self.estado == 4:
@@ -126,14 +126,14 @@ class Jogo(arcade.Window):
                 else:
                     self.estado = 1
             
-            # !TESTES ! -  Deixar um inimigo vivo pra testes
+            # Debug nivel  - Deixar um inimigo vivo pra testes
             if key == arcade.key.F:
                 for inimigo in self.lista_inimigos[:-1]:
                     inimigo.kill()
                 for cover in self.lista_covers:
                     self.lista_covers.remove(cover)
             
-            # !TESTES!   -  Causar game over 
+            # Debug nivel  - Causar game over 
             if key == arcade.key.G:
                 for jogador in self.lista_jogadores:
                     jogador.remover_vidas(3)
@@ -436,7 +436,7 @@ class Jogo(arcade.Window):
 def main(): # Criação da janela, chamada do setup, e ordem para inicialização 
 
     window = Jogo()
-    window.setup(12)
+    window.setup()
     arcade.run()
 
 if __name__ == "__main__":
