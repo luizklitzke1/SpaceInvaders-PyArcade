@@ -5,7 +5,7 @@ porém, com uma jogabilidade competitiva aonde dois jogadores competem por mais 
 
 ## Desenvolvimento do projeto
 
-O jogo foi projetado como uma forma de aprendizado da biblioteca [PyArcade](http://arcade.academy/) e da O.O.P como um todo, na disciplina de Programção do segundo ano de **Técnico de Informática no Instituto Federal Catarinense - Campus Blumenau**.
+O jogo foi projetado como uma forma de aprendizado da biblioteca [PyArcade](http://arcade.academy/) e da O.O.P como um todo, na disciplina de Programação do segundo ano de **Técnico de Informática no Instituto Federal Catarinense - Campus Blumenau**.
 
 Os aspectos principais foram planejados para a disciplina de **Engenharia de Sofwate** e podem ser econtrados em:
 
