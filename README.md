@@ -36,7 +36,7 @@ Toda a funcionalidade do projeto é extensamente comentada e explicada no seu de
 
 ## 🕹️ Gameplay
 
-[![Gameplay](imgs/gampelay.gif)](https://gifyu.com/image/mFc0)
+[![Gameplay](imgs/gameplay.gif)](https://gifyu.com/image/mFc0)
 
 Já na tela inicial, o jogador é apresentado aos comandos básicos de movimentação e ataque.
 
